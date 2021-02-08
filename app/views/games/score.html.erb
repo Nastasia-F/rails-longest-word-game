@@ -1,0 +1,8 @@
+<!-- The form will be submitted (with POST) to the score action. -->
+<div class="container">
+  <h1>Score</h1>
+  <h2> <%= params[:result].upcase %> </h2>
+  <h2> <%= @message %> </h2>
+</div>
+
+<%= link_to "Try again", new_path %>
